@@ -41,8 +41,8 @@ Second function:
 ```{r rank age function}
 # Define a function that sort the filtered dataframe by age and disaply them 
 # from the oldest to the youngest
-sort_by_age <- function(data){
-  data %>%
+sort_by_age <- function(data_new){
+  data_new %>%
     arrange(desc(age)) 
 }
 
