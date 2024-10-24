@@ -49,11 +49,11 @@ sort_by_age <- function(data_new){
 sort_by_age
 ```
 
-```{r rank orange tree's age}
+```{r rank orange trees age}
 # Apply the age filtering functions onto the previously filtered dataframes
 filtered_orange_trees <- sort_by_age(filtered_orange_trees)
 
 # Use head() to verify the result
-head(filtered_orange_trees)x
+head(filtered_orange_trees)
 ```
 Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
